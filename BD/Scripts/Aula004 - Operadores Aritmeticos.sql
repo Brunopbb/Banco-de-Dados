@@ -1,0 +1,11 @@
+
+
+SELECT 1 + 1 AS SOMA,
+       10 - 9 AS SUBTRACAO,
+       5 * 5 AS MULTIPLICACAO,
+       10 / 2 AS DIVISAO,
+       5 % 2 MODULO
+
+
+ SELECT 1 + '1' AS SOMA
+ SELECT '1' + '1' AS SOMA 

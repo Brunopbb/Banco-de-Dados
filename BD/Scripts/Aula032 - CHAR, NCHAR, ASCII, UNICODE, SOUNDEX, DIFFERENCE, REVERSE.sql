@@ -1,0 +1,11 @@
+
+
+USE AdventureWorks2019
+GO
+
+
+SELECT CHAR(91) AS [CHAR],
+       NCHAR(52) AS [NCHAR],
+       DIFFERENCE('BRUNO', 'BRUNO'),
+       REVERSE('BRUNO RIBEIRO DE ALMEIDA')
+

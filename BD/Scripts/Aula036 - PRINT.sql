@@ -1,0 +1,6 @@
+
+
+USE AdventureWorks2019
+GO
+
+PRINT 'DEVDOJO' + CHAR(13) + 'JAVA'

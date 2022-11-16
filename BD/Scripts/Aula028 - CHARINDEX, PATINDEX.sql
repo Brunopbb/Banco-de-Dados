@@ -1,0 +1,12 @@
+
+
+
+SELECT CHARINDEX('O', 'ESTOU APRENDENDO BANCO DE DADOS') AS [CHARINDEX],
+       PATINDEX('%P%', 'ESTOU APRENDENDO BANCO DE DADOS') AS [PATINDEX]
+
+
+SELECT BusinessEntityID,
+       EmailAddress,
+       SUBSTRING(EmailAddress, 1, CHARINDEX('@', EmailAddress) - 1) AS [NOME NO EMAIL]
+  FROM Person.EmailAddress
+
